@@ -19,11 +19,12 @@ body{
 }
 .grid{
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
     width: 70%;
     margin: 0 auto;
 }
+
 .game-link{
     text-decoration: none;
     transition: transform 0.2s ease;
