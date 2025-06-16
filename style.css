@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    color: inherit;
+}
+body{
+    background-color: pink;
+    overflow-x: hidden;
+}
+.cont{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+.grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 2rem;
+    width: 70%;
+    margin: 0 auto;
+}
+.game-link{
+    text-decoration: none;
+    transition: transform 0.2s ease;
+}
+.game-link:hover{
+    transform: scale(1.02);
+}
+.game-secn{
+    border: 2px solid black;
+    border-radius: 12px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 1rem;
+    background-color:rgb(193, 241, 36);
+}
+.game-img img{
+    height: 8rem;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
