@@ -103,3 +103,59 @@ img{
 .reset:active{
     transform: scale(0.8);
 }
+
+@media (max-width:900px){
+    img{
+    height: 7rem;
+    width: 7rem;
+    }
+
+    h1{
+    height: 4rem;
+    line-height: 4rem;
+    margin-top: 3rem;
+    margin-bottom: 1.4rem;
+    width: 60%;
+    }
+
+    #msg{
+    font-size: 2rem;
+    }
+    .choices{
+        gap: 3rem;
+    }
+    .score-board{
+    gap: 4rem;
+    }
+    .score-board p{
+    font-size: x-large;
+    font-weight: 600;
+    }
+}
+
+
+/* Phones */
+@media (max-width: 600px) {
+    img{
+    height: 5rem;
+    width: 5rem;
+    }
+
+    h1{
+        margin-top: 2rem;
+    margin-bottom: 1rem;
+    width: 70%;
+    font-size: large;
+    word-wrap: break-word;
+    }
+
+    #msg{
+    font-size: 1.2rem;
+    }
+    .choices{
+        gap: 1rem;
+    }
+    .score-board{
+    gap: 3rem;
+    }
+}
