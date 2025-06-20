@@ -38,6 +38,7 @@ main h1{
     color: black;
     background-color: lightgoldenrodyellow;
     border: 2px solid black;
+    user-select: none;
 }
 
 main h1{
@@ -95,6 +96,13 @@ main h1{
     .game{
         margin-top: 1.5rem;
         margin-bottom: 1.5rem;
+    }
+    .msg{
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 1.5rem;
+    }
+    .win-msg{
     }
 }
 /* Phones */
